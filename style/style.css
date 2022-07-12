@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f1f5f8;
+  font-family: sans-serif;
+}
+
+.blue-color {
+  color: #49a6e9;
+}
+.main-container {
+  width: 40%;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.header {
+  font-size: 50px;
+
+  text-transform: capitalize;
+}
+
+.underline {
+  width: 20%;
+  margin: 25px auto;
+
+  height: 5px;
+  background-color: #49a6e9;
+}
+
+.review-container {
+  margin: 100px 0px;
+  border: 2px solid #49a6e9;
+  border-radius: 15px;
+  box-shadow: 0px 0px 40px -2px gray;
+  padding: 25px;
+}
+.img-container {
+  position: relative;
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 10px -5px 0px 0px #49a6e9;
+  border: 2px solid black;
+  background-image: url(../assets/imgs/person2.jpg);
+  background-size: cover;
+}
+.img-quotes {
+  position: absolute;
+  top: 20px;
+  right: 80%;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  background-color: #49a6e9;
+}
+
+.img-container img {
+  height: 100%;
+}
+
+.author {
+  margin: 10px 0px;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: lighter;
+}
+
+.job {
+  margin: 10px 0px;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #49a6e9;
+}
+
+.review-comment {
+  margin: 20px 0px;
+  font-size: 15px;
+}
+
+.arrows-container {
+  margin: 17px auto;
+}
+
+.btn {
+  font-size: 30px;
+  margin: 0px 10px 0px 0px;
+  background: transparent;
+  border-color: transparent;
+}
+.random-btn {
+  margin: 5px 0px;
+  padding: 10px;
+}
