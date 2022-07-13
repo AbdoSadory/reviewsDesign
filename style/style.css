@@ -49,7 +49,7 @@ body {
   border-radius: 50%;
   box-shadow: 10px -5px 0px 0px #49a6e9;
   border: 2px solid black;
-  background-image: url(../assets/imgs/person2.jpg);
+  /* background-image: url(https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg); */
   background-size: cover;
 }
 .img-quotes {
